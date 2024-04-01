@@ -1,0 +1,16 @@
+h2{
+    color: red;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bolder;
+    text-decoration: double;
+    text-align: center;
+}
+p{
+    color: brown;
+    font-size: 15px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+}

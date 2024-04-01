@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resposive image</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .kutu {
+            width: 25%;
+            height: auto;
+            background-color: aqua;
+            border: 2px solid red;
+            border-radius: 10px;
+            float: left;
+        }
+
+        @media screen and (max-width:900px) {
+
+            .kutu {
+                width: 33.3%;
+            }
+        }
+
+        @media screen and (max-width:600px) {
+
+            .kutu {
+                width: 50%;
+            }
+        }
+
+        @media screen and (max-width:400px) {
+            .kutu {
+                width: 100%;
+            }
+
+        }
+
+        img {
+            max-width: 100%;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="kutu">
+        <img src="../htmlbaslangic/images/wallpaperflare.com_wallpaper (1).jpg" alt="">
+    </div>
+    <div class="kutu">
+        <img src="../htmlbaslangic/images/wallpaperflare.com_wallpaper.jpg" alt="">
+    </div>
+    <div class="kutu">
+        <img src="../htmlbaslangic/images/wallpaperflare.com_wallpaper.jpg" alt="">
+    </div>
+    <div class="kutu">
+        <img src="../htmlbaslangic/images/wallpaperflare.com_wallpaper (1).jpg" alt="">
+    </div>
+    <div class="kutu">
+        <img src="../htmlbaslangic/images/wallpaperflare.com_wallpaper.jpg" alt="">
+    </div>
+
+
+</body>
+
+</html>

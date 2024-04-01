@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .kutu{
+            width: 25%;
+            height: 200px;
+            background-color: aqua;
+            border: 2px solid red;
+            border-radius: 10px;
+            float: left;
+        }
+        @media screen and (max-width:700px) {
+
+            .kutu{
+                width:50%;
+            }
+        }
+        @media screen and (max-width:400px) {
+            .kutu{
+                width: 100%;
+            }
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="kutu"></div>
+    <div class="kutu"></div>
+    <div class="kutu"></div>
+    <div class="kutu"></div>
+    <div class="kutu"></div>
+
+    
+</body>
+</html>

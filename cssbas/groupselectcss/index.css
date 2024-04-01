@@ -1,0 +1,45 @@
+/*
+(P) ----> tüm p etiketleri....
+(div p)----> div icerisindeki tüm p etiketleri...
+(div,p)----> tüm div ve tüm p etiketleri...
+(p+div)---> p etiketinden sonra gelen div etiketi...
+*/
+
+
+/*
+
+p{
+    color: red;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bolder;
+    text-decoration: double;
+    text-align: center;
+}
+*/
+/*
+div p{ 
+    color:blue;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bolder;
+    text-decoration: double;
+    text-align: center;
+
+}
+*/
+/*
+.container div p {
+    color:pink;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+*/
+div +p{
+    color:gray;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}

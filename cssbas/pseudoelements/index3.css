@@ -1,0 +1,55 @@
+
+/*
+pseude selectors*/
+
+p::first-letter{
+    font-weight: bold;
+    color: red;
+    font-size: 40px;
+
+}
+p[title="pr1"]::first-line{
+color: chartreuse;
+font-style: italic;
+word-spacing: 2px;
+letter-spacing: 2px;
+
+}
+p[title="pr2"]::first-line{
+    color: purple;
+    font-style: italic;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    
+    }
+p::backdrop{
+    color: blueviolet;
+}
+/*pseudo class*/
+ul li{
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+ul li:first-child{
+    color: brown;
+    background-color: cadetblue;
+}
+ul li:last-child{
+    color: aquamarine;
+    background-color: yellow;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: sandybrown;
+    background-color: palegreen;
+}
+a{
+    padding: 5px 10px;
+    text-decoration: none;
+    display: list-item;
+    width: 100px;
+    margin-bottom: 10px;
+}
